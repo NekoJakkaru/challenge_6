@@ -1,3 +1,7 @@
+body {
+    background-image: url(../images/fond.png);
+}
+
 section, h3, h5, p, button, span, ul, footer {
     margin-bottom: 2rem;
     font-family: 'arial', sans-serif;
@@ -5,6 +9,10 @@ section, h3, h5, p, button, span, ul, footer {
 
 section, p, ul, #pied {
     color: #525252;
+}
+
+article {
+    background-image: url(../images/fond-article.png);
 }
 
 img {
@@ -58,10 +66,15 @@ header {
 
 #pied {
     background-image: url(../images/footer.png);
+    margin-bottom: 0;
+    padding: 2rem 0;
 }
 
 #img_first {
     width : 80%;
     margin: 1rem;
     border: 20px solid white;
+}
+.list-group li {
+    background-image: url(../images/fond.png)
 }
