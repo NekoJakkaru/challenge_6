@@ -1,0 +1,55 @@
+div nav:not(:only-child) {
+}
+
+section, h3, h5, p, button, span, ul, footer {
+    margin-bottom: 2rem;
+    font-family: 'arial', sans-serif;
+}
+
+section, p, ul, #pied {
+    color: #525252;
+}
+
+img {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #FF3D00;
+    color: white;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    font-family: 'Abel', sans-serif;
+}
+
+h2, h3, h5 {
+    color: #2A2A2A;
+}
+
+span, .span {
+    color: #FF3002;
+}
+
+blockquote {
+    font-style: italic;
+    background-image: url(../images/citation.jpg);
+}
+header {
+    margin-bottom: 2rem;
+    background-image: url(../images/header.png);
+}
+
+#quote {
+    margin-top: 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+#pied {
+    background-image: url(../images/footer.png);
+}
