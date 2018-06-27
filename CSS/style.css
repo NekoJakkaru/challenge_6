@@ -6,6 +6,21 @@ section, h3, h5, p, button, span, ul, footer {
     margin-bottom: 2rem;
     font-family: 'arial', sans-serif;
 }
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+p {
+font-size: 1em;
+}
 
 section, p, ul, #pied {
     color: #525252;
@@ -26,11 +41,13 @@ header img:first-child{
 button {
     background-color: #FF3D00;
     color: white;
+    margin-bottom: 1rem;
 }
 
 header h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
+    font-size: 4em;
 }
 
 .navbar {
@@ -38,6 +55,7 @@ header h1 {
     width: 80%;
     background-color:  #76CBFA;
     box-shadow: -1px 2px 5px 1px  #4A91D2;
+    font-size: 1.5em;
 }
 
 h2, h3, h5 {
@@ -77,4 +95,34 @@ header {
 }
 .list-group li {
     background-image: url(../images/fond.png)
+}
+
+.fleche {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 1rem;
+}
+
+blockquote {
+    position: relative;
+    /* background: rgba(230, 135, 220, 0.65); */
+    background: linear-gradient( rgba(0, 255, 25, 0.5), rgba(224, 167, 251, 0.82));
+    border-radius: .4em;
+        padding: 1rem;
+}
+
+blockquote:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+    width: 0;
+    height: 0;
+    border: 19px solid transparent;
+    /* border-top-color: rgba(230, 135, 220, 0.65); */
+    border-top-color: rgba(224, 167, 251, 0.82);
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -9.5px;
+    margin-bottom: -19px;
 }
